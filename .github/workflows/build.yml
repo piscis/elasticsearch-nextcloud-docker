@@ -25,6 +25,6 @@ jobs:
         with:
           pull: false
           push: true
-          tags: r0wi/elasticsearch-nextcloud-docker:${{ github.ref_name }}
+          tags: piscis/elasticsearch-nextcloud-docker:${{ github.ref_name }}
           build-args: |
             ELASTIC_IMAGE=elasticsearch:8.8.2
