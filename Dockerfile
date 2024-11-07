@@ -1,4 +1,4 @@
-ARG ELASTIC_IMAGE=elasticsearch:8.8.2
+ARG ELASTIC_IMAGE=elasticsearch:8.15.3
 
 FROM $ELASTIC_IMAGE
 
